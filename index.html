@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanav Sharma - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <div class="container">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Button at the Top Right -->
+  <div class="contact-button-container">
+    <button class="contact-btn" onclick="toggleContact()">Contact Me</button>
+    <div id="contact-dropdown" class="contact-dropdown">
+      <p>Phone: <a href="tel:856-283-7650">(856) 283-7650</a></p>
+      <p>Email: <a href="mailto:kanav.info28@gmail.com">kanav.info28@gmail.com</a></p>
+    </div>
+  </div>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <h1>Hi, I'm <span class="highlight">Kanav Sharma</span></h1>
+      <p class="subtitle">Software Engineer & AI Enthusiast</p>
+      <div class="home-buttons">
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate software engineer currently pursuing a BS in Computer Science at Rutgers University. 
+        With a strong foundation in AI, web development, and data science, I love building scalable solutions 
+        that solve real-world problems. When I'm not coding, you can find me exploring the latest tech trends 
+        
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-categories">
+        <!-- Programming Languages -->
+        <div class="category">
+          <h3>Programming Languages</h3>
+          <div class="skills-grid">
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">C/C++</div>
+            <div class="skill">TypeScript</div>
+            <div class="skill">Rust</div>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="category">
+          <h3>Web Development</h3>
+          <div class="skills-grid">
+            <div class="skill">React.js</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Flask</div>
+            <div class="skill">RESTful APIs</div>
+            <div class="skill">GraphQL</div>
+            <div class="skill">HTML5 & CSS3</div>
+          </div>
+        </div>
+
+        <!-- Databases -->
+        <div class="category">
+          <h3>Databases</h3>
+          <div class="skills-grid">
+            <div class="skill">PostgreSQL</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">Firebase</div>
+          </div>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="category">
+          <h3>Tools & Platforms</h3>
+          <div class="skills-grid">
+            <div class="skill">Git</div>
+            <div class="skill">Docker</div>
+            <div class="skill">AWS</div>
+            <div class="skill">VS Code</div>
+            <div class="skill">Postman</div>
+            <div class="skill">Jenkins</div>
+          </div>
+        </div>
+
+        <!-- AI/ML -->
+        <div class="category">
+          <h3>AI/ML</h3>
+          <div class="skills-grid">
+            <div class="skill">Machine Learning</div>
+            <div class="skill">TensorFlow</div>
+            <div class="skill">PyTorch</div>
+            <div class="skill">Natural Language Processing (NLP)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Expense Tracker</h3>
+          <p>A web-based tool to manage income, expenses, and budgets.</p>
+          <p><strong>Tech:</strong> Python, Flask, PostgreSQL</p>
+        </div>
+        <div class="project-card">
+          <h3>Job Tracking Application</h3>
+          <p>A system to streamline job applications for 200+ users.</p>
+          <p><strong>Tech:</strong> Python, JSON, Node.js, JavaScript</p>
+        </div>
+        <div class="project-card">
+          <h3>Kobe Inspired Code Assistant</h3>
+          <p>A code assistant powered by Meta’s Code Llama.</p>
+          <p><strong>Tech:</strong> Code Llama, LangChain, Gradio, Python</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Software Engineer Intern</h3>
+        <p><strong>A3 Logics Inc</strong> | Carlsbad, CA | June 2024 – Oct. 2024</p>
+        <ul>
+          <li>Developed an Expense Tracker web tool.</li>
+          <li>Improved data retrieval times by 35%.</li>
+          <li> Led a team of 4 interns into integreating API calls.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Web and Mobile Application Developer</h3>
+        <p><strong>Compunnel Digital</strong> | Plainsboro, NJ | June 2023 – Aug. 2023</p>
+        <ul>
+          <li>Built a mobile app for an employment communication platform.</li>
+          <li>Integrated Twilio APIs for SMS and calling.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2023 Kanav Sharma. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/kanavsha" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Nav228" target="_blank">GitHub</a>
+        <a href="mailto:kanav.info28@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-Top Button -->
+  <button id="scroll-to-top" class="scroll-to-top-btn">↑</button>
+
+  <!-- JavaScript -->
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Scroll-to-top button
+    const scrollToTopBtn = document.getElementById('scroll-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        scrollToTopBtn.classList.add('visible');
+      } else {
+        scrollToTopBtn.classList.remove('visible');
+      }
+    });
+
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+    // Contact dropdown toggle
+    function toggleContact() {
+      const dropdown = document.getElementById("contact-dropdown");
+      dropdown.classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.contact-btn')) {
+        const dropdowns = document.getElementsByClassName("contact-dropdown");
+        for (let i = 0; i < dropdowns.length; i++) {
+          const openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    };
+  </script>
+</body>
+</html>
